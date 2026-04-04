@@ -1,0 +1,10 @@
+{
+  "api_key": "TU_API_KEY_AQUI",
+  "location": "40.416775,-3.703790",
+  "location_name": "Madrid",
+  "radius": 10000,
+  "search_type": "accounting",
+  "output_prefix": "negocios_sin_web_madrid",
+  "max_results": 100,
+  "language": "es"
+}
