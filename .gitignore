@@ -1,0 +1,26 @@
+# Configuración (contiene claves API y datos sensibles)
+config.json
+whatsapp_config.json
+
+# Archivos de datos
+*.csv
+
+# Logs de envío
+envios_whatsapp.log
+
+# Archivos temporales de Windows
+.~lock.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+.env
+<task_progress>- [x] Explorar el proyecto y entender los datos disponibles (CSV, config, scripts)
+- [x] Diseñar la solución de envío de mensajes WhatsApp Business
+- [x] Implementar el script de envío de mensajes
+- [x] Actualizar requirements.txt y .gitignore
+- [ ] Documentar el uso en README</task_progress>

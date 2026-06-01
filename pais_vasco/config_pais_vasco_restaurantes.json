@@ -1,0 +1,12 @@
+{
+  "api_key": "AIzaSyDDoNBjsWEG2BIl892Bp6BuY70tJpL5gqA",
+  "location": "43.0600,-2.5330",
+  "location_name": "País Vasco",
+  "locations_extra": "43.2630,-2.9350;43.3183,-1.9812;42.8465,-2.6716",
+  "locations_extra_names": "Bilbao;San Sebastián;Vitoria-Gasteiz",
+  "radius": 50000,
+  "search_type": "restaurant",
+  "output_prefix": "restaurantes_pais_vasco_sin_web",
+  "max_results": 300,
+  "language": "es"
+}

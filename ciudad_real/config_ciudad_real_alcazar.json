@@ -1,0 +1,10 @@
+{
+  "api_key": "AIzaSyDDoNBjsWEG2BIl892Bp6BuY70tJpL5gqA",
+  "location": "38.9891,-3.2154",
+  "location_name": "Alcazar de San Juan",
+  "radius": 20000,
+  "search_type": "bar, restaurant",
+  "output_prefix": "bares_restaurantes_alcazar_sin_web",
+  "max_results": 100,
+  "language": "es"
+}

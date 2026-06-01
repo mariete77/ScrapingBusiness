@@ -1,0 +1,15 @@
+﻿{
+    "mcpServers":  {
+                       "agentmemory":  {
+                                           "args":  [
+                                                        "-y",
+                                                        "@agentmemory/mcp"
+                                                    ],
+                                           "env":  {
+                                                       "AGENTMEMORY_PROJECT":  "ScrapingBusiness",
+                                                       "AGENTMEMORY_URL":  "http://localhost:3111"
+                                                   },
+                                           "command":  "npx"
+                                       }
+                   }
+}

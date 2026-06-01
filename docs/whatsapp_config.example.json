@@ -1,0 +1,40 @@
+{
+  "_comentario": "Configuración para el script de envío WhatsApp — Enfoque: Peluquerías y Barberías",
+  
+  "modo": "wame",
+  "_modo_opciones": {
+    "wame": "Abre enlaces wa.me en el navegador (recomendado para pruebas)",
+    "api": "WhatsApp Cloud API de Meta (para envío masivo automatizado)"
+  },
+
+  "mensaje_template": "Hola {nombre}, soy Mario de ayanip.es. Vi tu negocio y creo que podrías ganar más clientes con una web simple para enseñar servicios, precios y pedir cita.\n\n¿Te enseño un ejemplo rápido?",
+  
+  "_mensaje_variables": [
+    "{nombre} - Nombre del negocio (del CSV)",
+    "{direccion} - Dirección del negocio",
+    "{telefono} - Teléfono del negocio",
+    "{zona} - Ciudad/barrio extraído automáticamente de la dirección"
+  ],
+
+  "prefijo_pais": "34",
+  
+  "delay_entre_mensajes": 8,
+  "_delay_explicacion": "Segundos entre cada apertura de wa.me (recomendado 8-15 para evitar alertas)",
+
+  "max_mensajes_por_ejecucion": 10,
+  "_max_explicacion": "Cuántos mensajes enviar por ejecución (para ir poco a poco)",
+
+  "filtrar_tipo": "peluqueria",
+  "_filtrar_tipo_explicacion": "Filtrar solo ciertos tipos de negocio. Opciones: 'peluqueria' o '' (vacío = todos)",
+
+  "archivo_csv": "",
+  "_archivo_csv_explicacion": "Dejar vacío para usar el CSV más reciente automáticamente",
+
+  "log_envios": "envios_whatsapp.log",
+
+  "whatsapp_api": {
+    "access_token": "",
+    "phone_number_id": "",
+    "api_version": "v21.0"
+  }
+}

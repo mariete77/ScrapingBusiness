@@ -1,0 +1,10 @@
+{
+  "api_key": "AIzaSyDDoNBjsWEG2BIl892Bp6BuY70tJpL5gqA",
+  "location": "38.9860,-3.9293",
+  "location_name": "Ciudad Real - Provincia",
+  "radius": 80000,
+  "search_type": "bar, restaurant",
+  "output_prefix": "bares_restaurantes_ciudad_real_sin_web",
+  "max_results": 300,
+  "language": "es"
+}

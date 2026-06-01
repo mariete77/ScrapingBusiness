@@ -1,0 +1,10 @@
+{
+  "api_key": "AIzaSyDDoNBjsWEG2BIl892Bp6BuY70tJpL5gqA",
+  "location": "38.6910,-4.1093",
+  "location_name": "Puertollano",
+  "radius": 25000,
+  "search_type": "bar, restaurant",
+  "output_prefix": "bares_restaurantes_puertollano_sin_web",
+  "max_results": 100,
+  "language": "es"
+}

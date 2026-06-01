@@ -1,0 +1,12 @@
+{
+  "api_key": "AIzaSyDDoNBjsWEG2BIl892Bp6BuY70tJpL5gqA",
+  "location": "39.8628,-4.0273",
+  "location_name": "Toledo (capital)",
+  "locations_extra": "39.9596,-4.8323;40.1332,-3.8492;40.0500,-4.0500;39.9500,-3.4500;39.5833,-3.0000;39.4667,-3.5333;39.4500,-3.6500;39.8833,-3.3667",
+  "locations_extra_names": "Talavera de la Reina;Illescas;Torrijos;Ocaña;Quintanar de la Orden;Madridejos;Consuegra;Tembleque",
+  "radius": 40000,
+  "search_type": "restaurant",
+  "output_prefix": "restaurantes_toledo_provincia_sin_web",
+  "max_results": 500,
+  "language": "es"
+}

@@ -126,15 +126,87 @@ Al final de la ejecución, el script mostrará:
    - Con web: 35
 ```
 
+## 📱 Envío de WhatsApp a Negocios
+
+Una vez tienes el CSV con negocios sin web, puedes enviarles mensajes de oferta directamente por WhatsApp.
+
+### Modos de funcionamiento
+
+| Modo | Descripción | Ideal para |
+|------|-------------|------------|
+| `wame` | Abre enlaces wa.me en el navegador con mensaje prellenado | Pruebas iniciales, pocos mensajes |
+| `api` | WhatsApp Cloud API de Meta (envío automatizado) | Envío masivo, escala |
+
+### Configuración rápida
+
+1. Copia el config de ejemplo:
+   ```bash
+   copy whatsapp_config.example.json whatsapp_config.json
+   ```
+
+2. Edita `whatsapp_config.json` y personaliza el mensaje:
+   ```json
+   {
+     "modo": "wame",
+      "mensaje_template": "Hola {nombre}, soy Mario de Ayanip.es. Vi que su negocio no tiene pagina web...",
+     "prefijo_pais": "34",
+     "delay_entre_mensajes": 8,
+     "max_mensajes_por_ejecucion": 10
+   }
+   ```
+
+3. Variables disponibles en el template:
+   - `{nombre}` — Nombre del negocio
+   - `{direccion}` — Dirección
+   - `{telefono}` — Teléfono
+
+### Ejecutar
+
+```bash
+python whatsapp_sender.py
+```
+
+El script automáticamente:
+- Busca el CSV más reciente
+- Filtra negocios con teléfono válido
+- **No reenvía** a contactos ya contactados (registro en `envios_whatsapp.log`)
+- Pide confirmación antes de enviar
+- Muestra resumen de enviados/fallidos/omitidos
+
+### Modo wa.me (recomendado para empezar)
+
+1. Abre [WhatsApp Web](https://web.whatsapp.com) en tu navegador y haz login
+2. Ejecuta `python whatsapp_sender.py`
+3. Por cada contacto se abrirá una pestaña con el mensaje prellenado
+4. Pulsa "Enviar" manualmente en cada una
+5. El script espera 8 segundos entre cada apertura (configurable)
+
+### Modo API (para escalar)
+
+Requiere un número de WhatsApp Business registrado en Meta:
+
+1. Ve a [Meta Developer](https://developers.facebook.com/apps/) y crea una app
+2. Añade el producto "WhatsApp" y obtén el `access_token` y `phone_number_id`
+3. En `whatsapp_config.json`, cambia el modo a `"api"` y rellena las credenciales:
+   ```json
+   {
+     "modo": "api",
+     "whatsapp_api": {
+       "access_token": "EAAXxxxx...",
+       "phone_number_id": "1234567890",
+       "api_version": "v21.0"
+     }
+   }
+   ```
+4. Ejecuta el script — el envío es completamente automático
+
+> ⚠️ **Nota:** Para enviar a números que no te tienen en agenda, WhatsApp requiere que el destinatario haya interactuado contigo antes (respondiendo a un mensaje tuyo). El modo wa.me evita esta restricción porque tú pulsas "Enviar" manualmente.
+
 ## 🔄 Próximos Pasos
 
-1. **Abre el CSV generado**
-2. **Revisa los negocios sin web**
-3. **Haz outreach** usando las plantillas en `plan-outreach.md`:
-   - Llamadas telefónicas
-   - Mensajes de LinkedIn
-   - Emails
-4. **Cierra ventas** → Ingreso extra 🎉
+1. **Ejecuta el scraping** → obtén el CSV de negocios sin web
+2. **Ejecuta el sender de WhatsApp** → contacta a los negocios
+3. **Revisa respuestas** en WhatsApp y cierra ventas → Ingreso extra 🎉
 
 ## ⚠️ Limitaciones
 

@@ -1,0 +1,10 @@
+{
+  "api_key": "AIzaSyDDoNBjsWEG2BIl892Bp6BuY70tJpL5gqAVlae,",
+  "location": "40.416775,-3.703790",
+  "location_name": "Madrid",
+  "radius": 10000,
+  "search_type": "hair salon,barber shop",
+  "output_prefix": "peluquerias_barberias_sin_web",
+  "max_results": 100,
+  "language": "es"
+}

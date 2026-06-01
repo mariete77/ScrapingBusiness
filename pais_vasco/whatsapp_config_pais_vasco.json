@@ -1,0 +1,58 @@
+{
+  "_comentario": "Configuración para el script de envío WhatsApp — Enfoque: Restaurantes País Vasco",
+  
+  "modo": "web",
+  "_modo_opciones": {
+    "web_directo": "Abre WhatsApp Web directamente con el mensaje prellenado (solo pulsa Enter)",
+    "web": "Automatiza completamente con pywhatkit (espera 15s por mensaje)",
+    "wame": "Abre enlaces wa.me en el navegador (requiere paso extra)",
+    "api": "WhatsApp Cloud API de Meta (para envío masivo automatizado)"
+  },
+
+  "mensajes_templates": [
+    "Hola, preguntaba por el dueño de {nombre}?"
+  ],
+  
+  "_mensaje_variables": [
+    "{nombre} - Nombre del negocio (del CSV)",
+    "{direccion} - Dirección del negocio",
+    "{telefono} - Teléfono del negocio",
+    "{rating} - Rating del negocio (⭐4.5)",
+    "{zona} - Ciudad/barrio extraído automáticamente de la dirección"
+  ],
+
+  "prefijo_pais": "34",
+  
+  "solo_moviles": true,
+  "_solo_moviles_explicacion": "Solo enviar a números móviles (empiezan por 6 o 7). Los fijos (943, 945, 946) no tienen WhatsApp.",
+
+  "delay_min": 60,
+  "delay_max": 120,
+  "_delay_explicacion": "Tiempo aleatorio entre mensajes en segundos (60-120s para evitar bloqueos)",
+
+  "pausa_cada": 5,
+  "pausa_minutos": 10,
+  "_pausa_explicacion": "Hacer pausa larga cada X mensajes para evitar spam (ej: cada 5 mensajes, pausar 10 minutos)",
+
+  "max_mensajes_por_ejecucion": 20,
+  "_max_explicacion": "Cuántos mensajes enviar por ejecución (para ir poco a poco)",
+
+  "max_mensajes_por_dia": 40,
+  "_max_dia_explicacion": "Máximo de mensajes por día para evitar bloqueos",
+
+  "filtrar_tipos": ["restaurant", "bar"],
+  "_filtrar_tipo_explicacion": "Filtrar solo restaurantes y bares (tipos de Google). Usa array: ['restaurant', 'bar']",
+  "excluir_tipos": ["hair_salon", "barber_shop", "beauty_salon", "car_repair", "electrician", "plumber", "locksmith"],
+  "_excluir_tipos_explicacion": "Excluir peluquerías, talleres, fontaneros, etc.",
+
+  "archivo_csv": "restaurantes_pais_vasco_sin_web_20260504_120205.csv",
+  "_archivo_csv_explicacion": "CSV específico para restaurantes en el País Vasco",
+
+  "log_envios": "envios_whatsapp_pais_vasco.log",
+
+  "whatsapp_api": {
+    "access_token": "",
+    "phone_number_id": "",
+    "api_version": "v21.0"
+  }
+}

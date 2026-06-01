@@ -1,0 +1,10 @@
+{
+  "api_key": "AIzaSyDDoNBjsWEG2BIl892Bp6BuY70tJpL5gqA",
+  "location": "39.1535,-3.0015",
+  "location_name": "Tomelloso",
+  "radius": 20000,
+  "search_type": "bar, restaurant",
+  "output_prefix": "bares_restaurantes_tomelloso_sin_web",
+  "max_results": 100,
+  "language": "es"
+}
