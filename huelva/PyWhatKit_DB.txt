@@ -98,3 +98,138 @@ Time: 15:5
 Phone Number: +34642395868
 Message: Hola, preguntaba por el dueño de Paco's Food, La Comida de Paco?
 --------------------
+Date: 1/6/2026
+Time: 10:10
+Phone Number: +34744737139
+Message: Hola, preguntaba por el dueño de La Tabernita?
+--------------------
+Date: 1/6/2026
+Time: 10:11
+Phone Number: +34630614589
+Message: Hola, preguntaba por el dueño de la venta de Carlos Parra?
+--------------------
+Date: 1/6/2026
+Time: 10:13
+Phone Number: +34651609312
+Message: Hola, preguntaba por el dueño de Peña Cultural Bética Manuel Ruiz de Lopera?
+--------------------
+Date: 4/6/2026
+Time: 15:53
+Phone Number: +34643113520
+Message: Hola, preguntaba por el dueño de Catering Pérez Pérez?
+--------------------
+Date: 4/6/2026
+Time: 15:54
+Phone Number: +34641297566
+Message: Hola, preguntaba por el dueño de Bar Dos bocao's?
+--------------------
+Date: 4/6/2026
+Time: 15:55
+Phone Number: +34642383938
+Message: Hola, preguntaba por el dueño de The Cavern?
+--------------------
+Date: 4/6/2026
+Time: 15:57
+Phone Number: +34683413085
+Message: Hola, preguntaba por el dueño de Bar-Taberna La Trocha?
+--------------------
+Date: 4/6/2026
+Time: 15:59
+Phone Number: +34744755778
+Message: Hola, preguntaba por el dueño de España Best Doner Kebab?
+--------------------
+Date: 4/6/2026
+Time: 16:11
+Phone Number: +34622554966
+Message: Hola, preguntaba por el dueño de Camino Sevilla?
+--------------------
+Date: 4/6/2026
+Time: 16:13
+Phone Number: +34625690167
+Message: Hola, preguntaba por el dueño de Restaurante La Rana?
+--------------------
+Date: 4/6/2026
+Time: 16:14
+Phone Number: +34623618213
+Message: Hola, preguntaba por el dueño de La Poncha?
+--------------------
+Date: 4/6/2026
+Time: 16:16
+Phone Number: +34651358790
+Message: Hola, preguntaba por el dueño de The AdriAnna's?
+--------------------
+Date: 4/6/2026
+Time: 16:18
+Phone Number: +34657261020
+Message: Hola, preguntaba por el dueño de Restaurante La Nueva Espuela?
+--------------------
+Date: 4/6/2026
+Time: 16:29
+Phone Number: +34630268991
+Message: Hola, preguntaba por el dueño de Restaurante Don Diego?
+--------------------
+Date: 4/6/2026
+Time: 16:31
+Phone Number: +34608499303
+Message: Hola, preguntaba por el dueño de La taperia leiva?
+--------------------
+Date: 4/6/2026
+Time: 16:33
+Phone Number: +34623615646
+Message: Hola, preguntaba por el dueño de DA Roberto 🇮🇹🍕💣🛵?
+--------------------
+Date: 4/6/2026
+Time: 16:36
+Phone Number: +34606964909
+Message: Hola, preguntaba por el dueño de Sede Rociera Hermandad Ayamonte?
+--------------------
+Date: 4/6/2026
+Time: 16:38
+Phone Number: +34619647468
+Message: Hola, preguntaba por el dueño de Restaurante La Purísima?
+--------------------
+Date: 4/6/2026
+Time: 16:49
+Phone Number: +34603591494
+Message: Hola, preguntaba por el dueño de Bar El Rincón del Gallúo?
+--------------------
+Date: 4/6/2026
+Time: 16:51
+Phone Number: +34651607584
+Message: Hola, preguntaba por el dueño de Restaurante Los Jardines de la Playa?
+--------------------
+Date: 4/6/2026
+Time: 16:53
+Phone Number: +34661234554
+Message: Hola, preguntaba por el dueño de Bar Albero Tapas?
+--------------------
+Date: 4/6/2026
+Time: 16:55
+Phone Number: +34669122396
+Message: Hola, preguntaba por el dueño de Bar Isabelo?
+--------------------
+Date: 4/6/2026
+Time: 16:57
+Phone Number: +34600767453
+Message: Hola, preguntaba por el dueño de Brasería Caladero?
+--------------------
+Date: 5/6/2026
+Time: 19:56
+Phone Number: +34635157050
+Message: Hola, preguntaba por el dueño de Aguasalá Cervecería?
+--------------------
+Date: 5/6/2026
+Time: 19:57
+Phone Number: +34691794239
+Message: Hola, preguntaba por el dueño de Peña Los Jarilleros?
+--------------------
+Date: 5/6/2026
+Time: 19:59
+Phone Number: +34695241958
+Message: Hola, preguntaba por el dueño de Bar Marinero?
+--------------------
+Date: 5/6/2026
+Time: 20:2
+Phone Number: +34672637582
+Message: Hola, preguntaba por el dueño de Taberna Victoria Tapas?
+--------------------
