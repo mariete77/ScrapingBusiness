@@ -595,11 +595,14 @@ class WhatsAppSender:
             'api': self._enviar_api
         }[modo]
 
+        template_anterior = None
         for i, negocio in enumerate(a_enviar, 1):
             phone = negocio['_phone_clean']
             nombre = negocio.get('nombre', 'Desconocido')
-            # Rotación aleatoria de templates anti-bloqueo
-            template_elegido = random.choice(templates)
+            # Rotación aleatoria de templates anti-bloqueo (sin repetir el anterior)
+            opciones = [t for t in templates if t != template_anterior] or templates
+            template_elegido = random.choice(opciones)
+            template_anterior = template_elegido
             mensaje = self._personalizar_mensaje(template_elegido, negocio)
 
             print(f"\n[{i}/{len(a_enviar)}] 📞 {phone} - {nombre[:40]}")

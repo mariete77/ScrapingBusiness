@@ -1,0 +1,12 @@
+{
+  "api_key": "AIzaSyDDoNBjsWEG2BIl892Bp6BuY70tJpL5gqA",
+  "location": "43.0099,-7.5560",
+  "location_name": "Lugo (capital)",
+  "locations_extra": "42.5217,-7.5128;43.6614,-7.5938;43.2975,-7.6814;42.7783,-7.4147;43.5689,-7.2589;43.5364,-7.0419;43.6553,-7.3550;42.6097,-7.7706;43.4275,-7.3631;43.1828,-7.8931;42.8569,-7.1611;42.8731,-7.8689;43.1242,-7.0689;43.6700,-7.4100",
+  "locations_extra_names": "Monforte de Lemos;Viveiro;Vilalba;Sarria;Foz;Ribadeo;Burela;Chantada;Mondoñedo;Guitiriz;Becerreá;Palas de Rei;A Fonsagrada;Cervo",
+  "radius": 40000,
+  "search_type": "restaurant",
+  "output_prefix": "restaurantes_lugo_provincia_sin_web",
+  "max_results": 500,
+  "language": "es"
+}

@@ -1,0 +1,12 @@
+{
+  "api_key": "AIzaSyDDoNBjsWEG2BIl892Bp6BuY70tJpL5gqA",
+  "location": "42.4310,-8.6444",
+  "location_name": "Pontevedra (capital)",
+  "locations_extra": "42.2406,-8.7207;42.5998,-8.7659;42.2836,-8.6117;42.2667,-8.7833;42.3903,-8.7006;42.1856,-8.5031;42.4859,-8.8683;42.3989,-8.8072;42.6883,-8.4894;42.6653,-8.1164;42.0503,-8.6444;42.5142,-8.8236;42.2792,-8.7358;42.7003,-8.2481",
+  "locations_extra_names": "Vigo;Vilagarcía de Arousa;Redondela;Cangas;Marín;Ponteareas;O Grove;Sanxenxo;A Estrada;Lalín;Tui;Cambados;Moaña;Silleda",
+  "radius": 40000,
+  "search_type": "restaurant",
+  "output_prefix": "restaurantes_pontevedra_provincia_sin_web",
+  "max_results": 500,
+  "language": "es"
+}

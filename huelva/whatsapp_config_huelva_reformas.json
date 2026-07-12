@@ -1,0 +1,75 @@
+{
+  "_comentario": "Configuración para el script de envío WhatsApp — Enfoque: Reformas y oficios (electricistas, fontaneros, cerrajeros, carpinteros) Provincia de Huelva",
+
+  "modo": "web",
+  "_modo_opciones": {
+    "web_directo": "Abre WhatsApp Web directamente con el mensaje prellenado (solo pulsa Enter)",
+    "web": "Automatiza completamente con pywhatkit (espera 15s por mensaje)",
+    "wame": "Abre enlaces wa.me en el navegador (requiere paso extra)",
+    "api": "WhatsApp Cloud API de Meta (para envío masivo automatizado)"
+  },
+
+  "mensajes_templates": [
+    "Hola 👋 ¿hablo con el responsable de {nombre}?",
+    "Buenas, ¿es el dueño de {nombre}? Quería comentarte una cosa rápida sobre Google.",
+    "Hola, vi {nombre} en Google. ¿Hablo con el responsable?",
+    "Buenos días, ¿se podría poner el dueño de {nombre}?",
+    "Hola, ¿eres tú quien lleva {nombre}?",
+    "Buenas 👋 ¿hablo con el dueño de {nombre}?",
+    "Hola, ¿quién lleva {nombre}? Quería comentarle una cosa.",
+    "Buenas, ¿es usted el responsable de {nombre}?",
+    "Hola, encontré {nombre} en Google. ¿Eres el propietario?",
+    "Buenos días 👋 busco al responsable de {nombre}, ¿es contigo?",
+    "Hola, ¿me podría atender el dueño de {nombre}?",
+    "Buenas, quería hablar un momento con el responsable de {nombre}.",
+    "Hola, ¿hablo con quien gestiona {nombre}?",
+    "Buenas tardes, ¿se puede poner el responsable de {nombre}?",
+    "Hola 👋 ¿eres el dueño de {nombre}? Es por un tema de Google."
+  ],
+
+  "_mensaje_variables": [
+    "{nombre} - Nombre del negocio (del CSV)",
+    "{direccion} - Dirección del negocio",
+    "{telefono} - Teléfono del negocio",
+    "{rating} - Rating del negocio (⭐4.5)",
+    "{zona} - Ciudad/barrio extraído automáticamente de la dirección",
+    "{tipo_negocio} - Tipo deducido del nombre"
+  ],
+
+  "_segundo_mensaje_manual": "Cuando contesten 'soy yo / dime', responde tú a mano con el valor. Plantilla sugerida: 'Genial 🙌 Soy Mario de ayanip.es. Vi que {nombre} sale en Google pero sin web propia, así que quien busca un {tipo_negocio} en {zona} acaba llamando a otro. Os he montado una demo de cómo os llegarían presupuestos desde Google 👇 [link]. Échale un ojo, sin compromiso.'",
+
+  "prefijo_pais": "34",
+
+  "solo_moviles": true,
+  "_solo_moviles_explicacion": "Solo enviar a números móviles (empiezan por 6 o 7). Los fijos (959) no tienen WhatsApp. Los oficios casi siempre dan el móvil personal del dueño → mejor que los restaurantes.",
+
+  "delay_min": 60,
+  "delay_max": 120,
+  "_delay_explicacion": "Tiempo aleatorio entre mensajes en segundos (60-120s para evitar bloqueos)",
+
+  "pausa_cada": 5,
+  "pausa_minutos": 10,
+  "_pausa_explicacion": "Hacer pausa larga cada X mensajes para evitar spam (ej: cada 5 mensajes, pausar 10 minutos)",
+
+  "max_mensajes_por_ejecucion": 20,
+  "_max_explicacion": "Cuántos mensajes enviar por ejecución (para ir poco a poco)",
+
+  "max_mensajes_por_dia": 40,
+  "_max_dia_explicacion": "Máximo de mensajes por día para evitar bloqueos",
+
+  "filtrar_tipos": [],
+  "_filtrar_tipo_explicacion": "Vacío a propósito: el scraper ya busca solo reformas/oficios, así que no filtramos por tipo de Google para no descartar leads buenos que tengan tipos genéricos (general_contractor, establishment, etc.).",
+  "excluir_tipos": ["restaurant", "bar", "cafe", "food", "hair_salon", "barber_shop", "beauty_salon", "lodging", "store"],
+  "_excluir_tipos_explicacion": "Excluir hostelería, peluquerías y comercios que se cuelen en la búsqueda.",
+
+  "archivo_csv": "reformas_huelva_provincia_sin_web_20260608_200842.csv",
+  "_archivo_csv_explicacion": "IMPORTANTE: tras ejecutar el scraper, copia aquí el nombre exacto del CSV generado (reformas_huelva_provincia_sin_web_AAAAMMDD_HHMMSS.csv).",
+
+  "log_envios": "envios_whatsapp_huelva_reformas.log",
+
+  "whatsapp_api": {
+    "access_token": "",
+    "phone_number_id": "",
+    "api_version": "v21.0"
+  }
+}

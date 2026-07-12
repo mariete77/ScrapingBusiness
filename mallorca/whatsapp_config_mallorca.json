@@ -1,6 +1,6 @@
 {
-  "_comentario": "Configuración para el script de envío WhatsApp — Enfoque: Restaurantes Provincia de Huelva",
-  
+  "_comentario": "Configuración para el script de envío WhatsApp — Enfoque: Restaurantes Isla de Mallorca",
+
   "modo": "web",
   "_modo_opciones": {
     "web_directo": "Abre WhatsApp Web directamente con el mensaje prellenado (solo pulsa Enter)",
@@ -16,7 +16,7 @@
     "Buenos días, busco al propietario de {nombre}",
     "Hola, ¿podría hablar con el responsable de {nombre}?"
   ],
-  
+
   "_mensaje_variables": [
     "{nombre} - Nombre del negocio (del CSV)",
     "{direccion} - Dirección del negocio",
@@ -26,9 +26,9 @@
   ],
 
   "prefijo_pais": "34",
-  
+
   "solo_moviles": true,
-  "_solo_moviles_explicacion": "Solo enviar a números móviles (empiezan por 6 o 7). Los fijos (959) no tienen WhatsApp.",
+  "_solo_moviles_explicacion": "Solo enviar a números móviles (empiezan por 6 o 7). Los fijos (971) no tienen WhatsApp.",
 
   "delay_min": 60,
   "delay_max": 120,
@@ -49,10 +49,10 @@
   "excluir_tipos": ["hair_salon", "barber_shop", "beauty_salon", "car_repair", "electrician", "plumber", "locksmith"],
   "_excluir_tipos_explicacion": "Excluir peluquerías, talleres, fontaneros, etc.",
 
-  "archivo_csv": "restaurantes_huelva_provincia_sin_web_20260529_110756.csv",
-  "_archivo_csv_explicacion": "CSV específico para restaurantes en la provincia de Huelva",
+  "archivo_csv": "restaurantes_mallorca_provincia_sin_web_20260619_105413.csv",
+  "_archivo_csv_explicacion": "CSV específico para restaurantes en la isla de Mallorca",
 
-  "log_envios": "envios_whatsapp_huelva.log",
+  "log_envios": "envios_whatsapp_mallorca.log",
 
   "whatsapp_api": {
     "access_token": "",

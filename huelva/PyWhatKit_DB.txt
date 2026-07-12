@@ -233,3 +233,298 @@ Time: 20:2
 Phone Number: +34672637582
 Message: Hola, preguntaba por el dueño de Taberna Victoria Tapas?
 --------------------
+Date: 8/6/2026
+Time: 10:43
+Phone Number: +34615107230
+Message: Buenas, quería hablar con el dueño de El Garito del Patera
+--------------------
+Date: 8/6/2026
+Time: 10:46
+Phone Number: +34640635112
+Message: Buenas, quería hablar con el dueño de Fundido
+--------------------
+Date: 8/6/2026
+Time: 10:47
+Phone Number: +34672876089
+Message: Buenas, quería hablar con el dueño de Muelle Marina 15
+--------------------
+Date: 8/6/2026
+Time: 10:48
+Phone Number: +34658394309
+Message: Buenas, quería hablar con el dueño de Casa Pedro
+--------------------
+Date: 8/6/2026
+Time: 10:51
+Phone Number: +34667911638
+Message: Buenos días, busco al propietario de Bar restaurante El Carmen Playa
+--------------------
+Date: 8/6/2026
+Time: 11:3
+Phone Number: +34601305820
+Message: Buenos días, busco al propietario de La Esencia. Antigua Bodeguita de los Raposo
+--------------------
+Date: 8/6/2026
+Time: 11:5
+Phone Number: +34641397586
+Message: Buenos días, busco al propietario de Bar restaurante Tapas Zenobia
+--------------------
+Date: 8/6/2026
+Time: 11:7
+Phone Number: +34624273030
+Message: Buenos días, busco al propietario de Restaurante MisterCook moguer oficial
+--------------------
+Date: 8/6/2026
+Time: 11:9
+Phone Number: +34624230849
+Message: Hola, ¿se podría poner el dueño de Pata Negra Moguer?
+--------------------
+Date: 8/6/2026
+Time: 11:11
+Phone Number: +34693544386
+Message: Hola, ¿se podría poner el dueño de Hnos. Mora Churrería-Asador De Pollos?
+--------------------
+Date: 8/6/2026
+Time: 11:22
+Phone Number: +34652404341
+Message: Buenos días, busco al propietario de Asador "El palacio del pollo"
+--------------------
+Date: 8/6/2026
+Time: 11:24
+Phone Number: +34635386260
+Message: Hola, preguntaba por el dueño de Jamoneria Riqueza iberica?
+--------------------
+Date: 8/6/2026
+Time: 11:25
+Phone Number: +34627137043
+Message: Hola, ¿se podría poner el dueño de Bar Cervecería Salmuera?
+--------------------
+Date: 8/6/2026
+Time: 11:28
+Phone Number: +34610836549
+Message: Hola, ¿podría hablar con el responsable de Pizzería 4 Amici?
+--------------------
+Date: 8/6/2026
+Time: 11:29
+Phone Number: +34623227312
+Message: Buenos días, busco al propietario de Restaurante Eat & GO - Fast food
+--------------------
+Date: 8/6/2026
+Time: 11:41
+Phone Number: +34685568854
+Message: Hola, preguntaba por el dueño de Restaurante Gastrobar La Curiosidad?
+--------------------
+Date: 8/6/2026
+Time: 11:43
+Phone Number: +34651629264
+Message: Hola, ¿se podría poner el dueño de Bar de Tapas 🍺 Bar Rocío · Comida Casera Tradicional?
+--------------------
+Date: 8/6/2026
+Time: 11:44
+Phone Number: +34686781577
+Message: Buenas, quería hablar con el dueño de Restaurante El Hogar del Pensionista
+--------------------
+Date: 8/6/2026
+Time: 11:46
+Phone Number: +34722725923
+Message: Buenas, quería hablar con el dueño de Nuevo Casino – Bar de tapas, Restaurante y Copas ✨
+--------------------
+Date: 8/6/2026
+Time: 11:47
+Phone Number: +34615417405
+Message: Hola, preguntaba por el dueño de Bar Casa Gómez?
+--------------------
+Date: 8/6/2026
+Time: 20:17
+Phone Number: +34666954246
+Message: Hola, ¿eres tú quien lleva Reformas Colombia?
+--------------------
+Date: 8/6/2026
+Time: 20:19
+Phone Number: +34664164535
+Message: Hola, ¿eres tú quien lleva Instalaciones Pladur Huelva?
+--------------------
+Date: 8/6/2026
+Time: 20:21
+Phone Number: +34642684907
+Message: Hola, ¿eres tú quien lleva Ronymax Aplicaciones?
+--------------------
+Date: 8/6/2026
+Time: 20:27
+Phone Number: +34601182749
+Message: Buenas 👋 ¿hablo con el dueño de Reformas RAFA BAUTISTA?
+--------------------
+Date: 8/6/2026
+Time: 20:29
+Phone Number: +34608320002
+Message: Hola, encontré Huelvavista CONSTRUCCIONES Y REFORMAS en Google. ¿Eres el propietario?
+--------------------
+Date: 8/6/2026
+Time: 20:31
+Phone Number: +34613499569
+Message: Buenos días 👋 busco al responsable de ReformasBR, ¿es contigo?
+--------------------
+Date: 8/6/2026
+Time: 20:33
+Phone Number: +34603584573
+Message: Hola 👋 ¿eres el dueño de Reforbien? Es por un tema de Google.
+--------------------
+Date: 8/6/2026
+Time: 20:35
+Phone Number: +34655440109
+Message: Buenas tardes, ¿se puede poner el responsable de REFORMAS Y CONST ENEBRALES?
+--------------------
+Date: 8/6/2026
+Time: 20:47
+Phone Number: +34699969262
+Message: Buenas, ¿es el dueño de Construcciones Marquez Paredes S.L.? Quería comentarte una cosa rápida sobre Google.
+--------------------
+Date: 8/6/2026
+Time: 20:49
+Phone Number: +34653540922
+Message: Buenas tardes, ¿se puede poner el responsable de LOS PRIMOS CONSTRUCCIONES Y REFORMAS?
+--------------------
+Date: 8/6/2026
+Time: 20:51
+Phone Number: +34653804950
+Message: Hola, ¿me podría atender el dueño de Reformas Cordero?
+--------------------
+Date: 8/6/2026
+Time: 20:52
+Phone Number: +34637605199
+Message: Buenos días, ¿se podría poner el dueño de Área Feng Shui. Arquitectura, Decoración e Interiorismo Feng Shui. Servicio Online.?
+--------------------
+Date: 8/6/2026
+Time: 20:53
+Phone Number: +34642736142
+Message: Hola, vi REFORMA Y PINTURA HUELVA en Google. ¿Hablo con el responsable?
+--------------------
+Date: 8/6/2026
+Time: 21:5
+Phone Number: +34643660600
+Message: Buenas, ¿es usted el responsable de CM REFORMAS Y MULTISERVICIOS?
+--------------------
+Date: 8/6/2026
+Time: 21:7
+Phone Number: +34628713339
+Message: Hola, ¿hablo con quien gestiona Construcciones y Reformas Juan José Morgado?
+--------------------
+Date: 8/6/2026
+Time: 21:8
+Phone Number: +34652500912
+Message: Hola 👋 ¿hablo con el responsable de Marvaz - Instalaciones Eléctricas y Telecomunicaciones?
+--------------------
+Date: 8/6/2026
+Time: 21:9
+Phone Number: +34657309328
+Message: Buenas, ¿es usted el responsable de Electricista En Huelva?
+--------------------
+Date: 8/6/2026
+Time: 21:11
+Phone Number: +34653028424
+Message: Buenas, ¿es el dueño de Eléctrica Diego Pérez? Quería comentarte una cosa rápida sobre Google.
+--------------------
+Date: 9/6/2026
+Time: 19:27
+Phone Number: +34643959348
+Message: Hola, encontré Electricista huelva en Google. ¿Eres el propietario?
+--------------------
+Date: 9/6/2026
+Time: 19:28
+Phone Number: +34628874361
+Message: Buenas, ¿es usted el responsable de ACH ELECTRICIDAD?
+--------------------
+Date: 9/6/2026
+Time: 19:30
+Phone Number: +34667979790
+Message: Buenas 👋 ¿hablo con el dueño de TEYVA HUELVA?
+--------------------
+Date: 9/6/2026
+Time: 19:31
+Phone Number: +34608609096
+Message: Buenas, quería hablar un momento con el responsable de Instalaciones cascales.
+--------------------
+Date: 9/6/2026
+Time: 19:33
+Phone Number: +34664411789
+Message: Buenas 👋 ¿hablo con el dueño de Eléctricos Escalante?
+--------------------
+Date: 9/6/2026
+Time: 19:34
+Phone Number: +34609570604
+Message: Buenas, ¿es el dueño de ELECTROSUR CALENTADORES Y TERMOS DEL SUR S.L.U? Quería comentarte una cosa rápida sobre Google.
+--------------------
+Date: 9/6/2026
+Time: 19:46
+Phone Number: +34633172963
+Message: Buenas, quería hablar un momento con el responsable de Electricista punta Umbria.
+--------------------
+Date: 9/6/2026
+Time: 19:48
+Phone Number: +34641506739
+Message: Hola 👋 ¿hablo con el responsable de Fontanero Huelva león?
+--------------------
+Date: 9/6/2026
+Time: 19:50
+Phone Number: +34615515107
+Message: Buenas tardes, ¿se puede poner el responsable de Desatascos Tavira?
+--------------------
+Date: 9/6/2026
+Time: 19:52
+Phone Number: +34672787779
+Message: Buenos días 👋 busco al responsable de Daiku Designs, ¿es contigo?
+--------------------
+Date: 9/6/2026
+Time: 19:54
+Phone Number: +34618585756
+Message: Buenos días, ¿se podría poner el dueño de Puertas Apolo?
+--------------------
+Date: 9/6/2026
+Time: 20:6
+Phone Number: +34653896430
+Message: Hola, vi Carpinteria Quintero Plaza en Google. ¿Hablo con el responsable?
+--------------------
+Date: 9/6/2026
+Time: 20:7
+Phone Number: +34665835138
+Message: Hola, encontré Amaya María Carpintero en Google. ¿Eres el propietario?
+--------------------
+Date: 9/6/2026
+Time: 20:9
+Phone Number: +34608500626
+Message: Buenas, quería hablar un momento con el responsable de Tarimas Onuba Decoracion , C.B.
+--------------------
+Date: 9/6/2026
+Time: 20:11
+Phone Number: +34627907534
+Message: Buenas, ¿es usted el responsable de Carpinteria F. Gomezg.?
+--------------------
+Date: 9/6/2026
+Time: 20:13
+Phone Number: +34641180197
+Message: Hola, ¿quién lleva Pladur y escayola Huelva lepe islantilla? Quería comentarle una cosa.
+--------------------
+Date: 9/6/2026
+Time: 20:24
+Phone Number: +34655606926
+Message: Hola, ¿me podría atender el dueño de SERVÍ-FERRE?
+--------------------
+Date: 9/6/2026
+Time: 20:26
+Phone Number: +34660468847
+Message: Buenos días, ¿se podría poner el dueño de Construcciones Atlantico Lepe, S.L.?
+--------------------
+Date: 9/6/2026
+Time: 20:27
+Phone Number: +34615107325
+Message: Hola 👋 ¿eres el dueño de Grupo Inversiones Urbasur, S.L.? Es por un tema de Google.
+--------------------
+Date: 9/6/2026
+Time: 20:29
+Phone Number: +34629761369
+Message: Buenas 👋 ¿hablo con el dueño de Arquitecta. María José García Rodríguez?
+--------------------
+Date: 9/6/2026
+Time: 20:31
+Phone Number: +34657674890
+Message: Hola 👋 ¿eres el dueño de Multiservicios Páez - Desatascos? Es por un tema de Google.
+--------------------

@@ -1,0 +1,12 @@
+{
+  "api_key": "AIzaSyDDoNBjsWEG2BIl892Bp6BuY70tJpL5gqA",
+  "location": "39.5696,2.6502",
+  "location_name": "Palma de Mallorca (capital)",
+  "locations_extra": "39.5658,2.5061;39.5697,3.2089;39.4905,2.8916;39.6406,2.7378;39.7216,2.9111;39.4691,3.1483;39.8770,3.0166;39.8530,3.1213;39.7660,2.7150;39.7019,3.1019;39.7028,3.4348;39.5757,2.4189;39.3551,3.1311;39.6924,3.3499;39.4322,3.0182;39.7707,3.0224",
+  "locations_extra_names": "Calvià;Manacor;Llucmajor;Marratxí;Inca;Felanitx;Pollença;Alcúdia;Sóller;Santa Margalida;Capdepera;Andratx;Santanyí;Artà;Campos;Sa Pobla",
+  "radius": 40000,
+  "search_type": "restaurant",
+  "output_prefix": "restaurantes_mallorca_provincia_sin_web",
+  "max_results": 500,
+  "language": "es"
+}

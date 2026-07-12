@@ -1,0 +1,6 @@
+# Ignorar outputs generados y secretos locales
+*.csv
+*.log
+PyWhatKit_DB.txt
+config_local*.json
+whatsapp_config_local*.json
