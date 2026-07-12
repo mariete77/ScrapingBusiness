@@ -98,3 +98,103 @@ Time: 13:26
 Phone Number: +34667746602
 Message: Hola, preguntaba por el dueño de Anaquel Gourmet Coffee & Brunch?
 --------------------
+Date: 12/7/2026
+Time: 13:17
+Phone Number: +34621377144
+Message: Buenos días, busco al propietario de Bar Restaurante Estación FFCC
+--------------------
+Date: 12/7/2026
+Time: 13:18
+Phone Number: +34627950626
+Message: Hola, ¿podría hablar con el responsable de Restaurante Churrasqueria Choles S.L?
+--------------------
+Date: 12/7/2026
+Time: 13:20
+Phone Number: +34627884859
+Message: Hola, preguntaba por el dueño de Bar Paraíso?
+--------------------
+Date: 12/7/2026
+Time: 13:21
+Phone Number: +34698168653
+Message: Buenos días, busco al propietario de Tapería O Espantallo
+--------------------
+Date: 12/7/2026
+Time: 13:23
+Phone Number: +34682177088
+Message: Buenas, quería hablar con el dueño de Restaurante Chino Jardín Bella
+--------------------
+Date: 12/7/2026
+Time: 13:36
+Phone Number: +34686039240
+Message: Hola, ¿podría hablar con el responsable de O Souto Taberna?
+--------------------
+Date: 12/7/2026
+Time: 13:38
+Phone Number: +34687422473
+Message: Buenas, quería hablar con el dueño de La Cantina del Muelle
+--------------------
+Date: 12/7/2026
+Time: 13:40
+Phone Number: +34696646392
+Message: Hola, preguntaba por el dueño de A Bailona Gastrobar?
+--------------------
+Date: 12/7/2026
+Time: 13:41
+Phone Number: +34633574651
+Message: Buenas, quería hablar con el dueño de Restaurante Tapería El Cortijo
+--------------------
+Date: 12/7/2026
+Time: 13:43
+Phone Number: +34615491142
+Message: Buenos días, busco al propietario de Restaurante O Muíño
+--------------------
+Date: 12/7/2026
+Time: 13:55
+Phone Number: +34623002830
+Message: Hola, preguntaba por el dueño de Restaurante Javitxus?
+--------------------
+Date: 12/7/2026
+Time: 13:57
+Phone Number: +34654746644
+Message: Buenos días, busco al propietario de Vinoteca Wunderbar
+--------------------
+Date: 12/7/2026
+Time: 13:58
+Phone Number: +34600693593
+Message: Hola, preguntaba por el dueño de Restaurante O casino?
+--------------------
+Date: 12/7/2026
+Time: 14:0
+Phone Number: +34620073880
+Message: Buenas, quería hablar con el dueño de Café Bar Construmar
+--------------------
+Date: 12/7/2026
+Time: 14:2
+Phone Number: +34653979730
+Message: Hola, ¿se podría poner el dueño de Pato Donald?
+--------------------
+Date: 12/7/2026
+Time: 14:14
+Phone Number: +34636795069
+Message: Buenas, quería hablar con el dueño de Bar Lorenzo
+--------------------
+Date: 12/7/2026
+Time: 14:16
+Phone Number: +34611598629
+Message: Buenos días, busco al propietario de Mi Rincón
+--------------------
+Date: 12/7/2026
+Time: 14:17
+Phone Number: +34664101751
+Message: Hola, ¿se podría poner el dueño de Restaurante "O Furancho da Souta"?
+--------------------
+Date: 12/7/2026
+Time: 14:19
+Phone Number: +34687527286
+Message: Hola, preguntaba por el dueño de Bar Montse Tapas?
+--------------------
+Date: 12/7/2026
+Time: 14:21
+Phone Number: +34695393937
+Message: Hola, ¿se podría poner el dueño de Bar Miño?
+--------------------

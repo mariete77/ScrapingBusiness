@@ -35,4 +35,9 @@ echo ========================================
 echo.
 echo Revisa el log: envios_whatsapp_huelva.log
 echo.
+echo Sincronizando con el repositorio Git...
+git -C "%~dp0.." add -A
+git -C "%~dp0.." commit -m "Actualizacion automatica: %~n0" >nul 2>&1
+git -C "%~dp0.." push
+echo.
 pause
