@@ -298,3 +298,103 @@ Time: 12:11
 Phone Number: +34636853555
 Message: Hola, ¿se podría poner el dueño de A Tasquiña?
 --------------------
+Date: 13/7/2026
+Time: 12:50
+Phone Number: +34628610818
+Message: Hola, ¿se podría poner el dueño de RESTAURANTE EVITA?
+--------------------
+Date: 13/7/2026
+Time: 12:52
+Phone Number: +34678685404
+Message: Buenos días, busco al propietario de Bar restaurante O Muíño Occilis
+--------------------
+Date: 13/7/2026
+Time: 12:54
+Phone Number: +34657999007
+Message: Hola, ¿podría hablar con el responsable de O TOÑO CAFÉ BAR?
+--------------------
+Date: 13/7/2026
+Time: 12:56
+Phone Number: +34618372603
+Message: Buenos días, busco al propietario de O Forno Asador
+--------------------
+Date: 13/7/2026
+Time: 12:58
+Phone Number: +34622423344
+Message: Hola, ¿podría hablar con el responsable de Abatea?
+--------------------
+Date: 13/7/2026
+Time: 13:9
+Phone Number: +34602671885
+Message: Hola, ¿se podría poner el dueño de Ollodeboi Restaurante y brasas?
+--------------------
+Date: 13/7/2026
+Time: 13:11
+Phone Number: +34669272176
+Message: Buenos días, busco al propietario de NUEVO TASMANIA
+--------------------
+Date: 13/7/2026
+Time: 13:13
+Phone Number: +34620520380
+Message: Hola, ¿se podría poner el dueño de Cepa e Viño gastrobar?
+--------------------
+Date: 13/7/2026
+Time: 13:14
+Phone Number: +34635016373
+Message: Buenas, quería hablar con el dueño de Velis Nolis Bistro
+--------------------
+Date: 13/7/2026
+Time: 13:16
+Phone Number: +34689657952
+Message: Hola, preguntaba por el dueño de Castelani Confiteria?
+--------------------
+Date: 13/7/2026
+Time: 13:28
+Phone Number: +34673378153
+Message: Buenas, quería hablar con el dueño de O Asador De Leo
+--------------------
+Date: 13/7/2026
+Time: 13:30
+Phone Number: +34722741688
+Message: Hola, preguntaba por el dueño de Wild Burger?
+--------------------
+Date: 13/7/2026
+Time: 13:31
+Phone Number: +34620855683
+Message: Buenos días, busco al propietario de Furancho O Rincón
+--------------------
+Date: 13/7/2026
+Time: 13:34
+Phone Number: +34698124226
+Message: Buenas, quería hablar con el dueño de Asador A Chicha
+--------------------
+Date: 13/7/2026
+Time: 13:36
+Phone Number: +34664093913
+Message: Hola, ¿se podría poner el dueño de O ASADOR O CARBÓN?
+--------------------
+Date: 13/7/2026
+Time: 13:47
+Phone Number: +34643561941
+Message: Buenos días, busco al propietario de Bar O Pincho Lalín
+--------------------
+Date: 13/7/2026
+Time: 13:49
+Phone Number: +34623605599
+Message: Hola, ¿se podría poner el dueño de Asador arcon?
+--------------------
+Date: 13/7/2026
+Time: 13:51
+Phone Number: +34696995834
+Message: Buenas, quería hablar con el dueño de Café Bar Tío Manolo
+--------------------
+Date: 13/7/2026
+Time: 13:52
+Phone Number: +34667415549
+Message: Hola, ¿se podría poner el dueño de Parrillada Alborada?
+--------------------
+Date: 13/7/2026
+Time: 13:54
+Phone Number: +34669193223
+Message: Hola, ¿podría hablar con el responsable de LA BELTANE?
+--------------------
