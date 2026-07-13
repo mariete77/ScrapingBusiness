@@ -198,3 +198,103 @@ Time: 14:21
 Phone Number: +34695393937
 Message: Hola, ¿se podría poner el dueño de Bar Miño?
 --------------------
+Date: 13/7/2026
+Time: 11:8
+Phone Number: +34604875994
+Message: Buenos días, busco al propietario de KAOS BEACH BAR
+--------------------
+Date: 13/7/2026
+Time: 11:9
+Phone Number: +34622024787
+Message: Hola, preguntaba por el dueño de A Fragha?
+--------------------
+Date: 13/7/2026
+Time: 11:11
+Phone Number: +34661524320
+Message: Buenas, quería hablar con el dueño de Fento cervexería tapería
+--------------------
+Date: 13/7/2026
+Time: 11:12
+Phone Number: +34650131747
+Message: Buenos días, busco al propietario de MacDona
+--------------------
+Date: 13/7/2026
+Time: 11:15
+Phone Number: +34667486994
+Message: Hola, ¿se podría poner el dueño de La Preciosa?
+--------------------
+Date: 13/7/2026
+Time: 11:26
+Phone Number: +34614175428
+Message: Hola, ¿podría hablar con el responsable de PIPOS BURGUER?
+--------------------
+Date: 13/7/2026
+Time: 11:28
+Phone Number: +34698941061
+Message: Hola, ¿se podría poner el dueño de Pataghillón?
+--------------------
+Date: 13/7/2026
+Time: 11:30
+Phone Number: +34610569021
+Message: Hola, preguntaba por el dueño de Balcón De Floreano?
+--------------------
+Date: 13/7/2026
+Time: 11:32
+Phone Number: +34610987460
+Message: Hola, ¿podría hablar con el responsable de A Lareira Do Larexo?
+--------------------
+Date: 13/7/2026
+Time: 11:33
+Phone Number: +34613194917
+Message: Hola, preguntaba por el dueño de Jueso de Caña?
+--------------------
+Date: 13/7/2026
+Time: 11:45
+Phone Number: +34679371767
+Message: Hola, ¿podría hablar con el responsable de Mareto Wine Bar?
+--------------------
+Date: 13/7/2026
+Time: 11:47
+Phone Number: +34629868925
+Message: Hola, preguntaba por el dueño de Taberna Herlogon?
+--------------------
+Date: 13/7/2026
+Time: 11:49
+Phone Number: +34678662019
+Message: Hola, ¿se podría poner el dueño de Chiringuito Como Na Casa?
+--------------------
+Date: 13/7/2026
+Time: 11:51
+Phone Number: +34699966757
+Message: Hola, ¿podría hablar con el responsable de Taberna A de Mariña?
+--------------------
+Date: 13/7/2026
+Time: 11:53
+Phone Number: +34665761792
+Message: Buenos días, busco al propietario de AQUARELLA Asador Tapería
+--------------------
+Date: 13/7/2026
+Time: 12:4
+Phone Number: +34695731415
+Message: Hola, preguntaba por el dueño de Telleiro?
+--------------------
+Date: 13/7/2026
+Time: 12:5
+Phone Number: +34687263716
+Message: Buenas, quería hablar con el dueño de Taberna del Nautico Sanxenxo
+--------------------
+Date: 13/7/2026
+Time: 12:7
+Phone Number: +34676198981
+Message: Hola, ¿se podría poner el dueño de La Cala Sanxenxo?
+--------------------
+Date: 13/7/2026
+Time: 12:9
+Phone Number: +34630767981
+Message: Buenas, quería hablar con el dueño de Casa Aurora
+--------------------
+Date: 13/7/2026
+Time: 12:11
+Phone Number: +34636853555
+Message: Hola, ¿se podría poner el dueño de A Tasquiña?
+--------------------
