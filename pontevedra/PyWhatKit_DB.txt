@@ -398,3 +398,68 @@ Time: 13:54
 Phone Number: +34669193223
 Message: Hola, ¿podría hablar con el responsable de LA BELTANE?
 --------------------
+Date: 14/7/2026
+Time: 11:5
+Phone Number: +34690136418
+Message: Hola, ¿se podría poner el dueño de Bodegón O Conde?
+--------------------
+Date: 14/7/2026
+Time: 11:7
+Phone Number: +34672377670
+Message: Hola, ¿podría hablar con el responsable de Le Crêpe Da Pia?
+--------------------
+Date: 14/7/2026
+Time: 11:9
+Phone Number: +34622402262
+Message: Buenas, quería hablar con el dueño de Bar tapas menús Cela
+--------------------
+Date: 14/7/2026
+Time: 11:10
+Phone Number: +34638892456
+Message: Hola, ¿podría hablar con el responsable de Merendeiro Aloia?
+--------------------
+Date: 14/7/2026
+Time: 11:12
+Phone Number: +34672226291
+Message: Buenos días, busco al propietario de Manc's burguer
+--------------------
+Date: 14/7/2026
+Time: 11:25
+Phone Number: +34699782441
+Message: Hola, ¿se podría poner el dueño de Best Doner Kebab Tui?
+--------------------
+Date: 14/7/2026
+Time: 11:27
+Phone Number: +34621376435
+Message: Hola, preguntaba por el dueño de RESTAURANTE O CASAL?
+--------------------
+Date: 14/7/2026
+Time: 11:29
+Phone Number: +34643082179
+Message: Hola, ¿se podría poner el dueño de Restaurante El Express Cambados?
+--------------------
+Date: 14/7/2026
+Time: 11:30
+Phone Number: +34611082401
+Message: Hola, preguntaba por el dueño de A Cultural Bar Restaurante?
+--------------------
+Date: 14/7/2026
+Time: 11:33
+Phone Number: +34609078288
+Message: Buenos días, busco al propietario de Restaurante Tapería D'Elvi
+--------------------
+Date: 14/7/2026
+Time: 11:44
+Phone Number: +34665360731
+Message: Hola, preguntaba por el dueño de Taberna O Prin?
+--------------------
+Date: 14/7/2026
+Time: 11:46
+Phone Number: +34670522013
+Message: Hola, ¿se podría poner el dueño de Bajamar?
+--------------------
+Date: 14/7/2026
+Time: 11:48
+Phone Number: +34672922957
+Message: Hola, preguntaba por el dueño de Hamburguesería Beiramar?
+--------------------
