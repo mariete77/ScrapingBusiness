@@ -463,3 +463,53 @@ Time: 11:48
 Phone Number: +34672922957
 Message: Hola, preguntaba por el dueño de Hamburguesería Beiramar?
 --------------------
+Date: 14/7/2026
+Time: 11:49
+Phone Number: +34600906500
+Message: Hola, ¿podría hablar con el responsable de Napoletano Gourmet?
+--------------------
+Date: 14/7/2026
+Time: 11:51
+Phone Number: +34692222090
+Message: Buenos días, busco al propietario de Restaurante El Puerto
+--------------------
+Date: 14/7/2026
+Time: 11:52
+Phone Number: +34669814702
+Message: Hola, ¿podría hablar con el responsable de Restaurante Casa Rios?
+--------------------
+Date: 14/7/2026
+Time: 11:54
+Phone Number: +34663854433
+Message: Buenos días, busco al propietario de Bodegón Trujillo
+--------------------
+Date: 14/7/2026
+Time: 11:56
+Phone Number: +34698137502
+Message: Buenas, quería hablar con el dueño de A pedra de silleda
+--------------------
+Date: 14/7/2026
+Time: 12:8
+Phone Number: +34675740290
+Message: Hola, ¿podría hablar con el responsable de Bodegón Os Toneles?
+--------------------
+Date: 14/7/2026
+Time: 12:9
+Phone Number: +34632281056
+Message: Buenos días, busco al propietario de Madina Doner Kebab
+--------------------
+Date: 14/7/2026
+Time: 12:11
+Phone Number: +34637216623
+Message: Hola, ¿se podría poner el dueño de As do Pipo's?
+--------------------
+Date: 14/7/2026
+Time: 12:12
+Phone Number: +34645890466
+Message: Hola, preguntaba por el dueño de Restaurante Churrascaría Ponte Taboada?
+--------------------
+Date: 14/7/2026
+Time: 12:14
+Phone Number: +34722740817
+Message: Buenos días, busco al propietario de Mesón C&L
+--------------------

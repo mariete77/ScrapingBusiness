@@ -1,0 +1,12 @@
+{
+  "api_key": "AIzaSyDDoNBjsWEG2BIl892Bp6BuY70tJpL5gqA",
+  "location": "43.3700,-8.3960",
+  "location_name": "A Coruña (capital)",
+  "locations_extra": "43.4848,-8.2328;42.8805,-8.5456;43.5110,-8.2003;43.3480,-8.3350;43.3040,-8.5100;42.5550,-8.9910;43.2090,-8.6910;43.2830,-8.3600;42.7850,-8.6500;43.3210,-8.2640;43.4400,-7.8500;43.1000,-8.4200;42.9180,-9.1800;43.2800,-8.2040",
+  "locations_extra_names": "Ferrol;Santiago de Compostela;Narón;Oleiros;Arteixo;Ribeira;Carballo;Culleredo;Noia;Sada;As Pontes;Ordes;Cee;Betanzos",
+  "radius": 40000,
+  "search_type": "restaurant",
+  "output_prefix": "restaurantes_coruna_provincia_sin_web",
+  "max_results": 500,
+  "language": "es"
+}
