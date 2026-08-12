@@ -1,0 +1,37 @@
+{
+  "_comentario": "Asesorías y gestorías SIN web — Huelva provincia. Mensaje distinto al de bares: aquí el gancho es el dato de mercado, no '¿hablo con el dueño?'.",
+  "modo": "web_directo",
+  "mensajes_templates": [
+    "Buenas, soy Mario de ayanip.es y es que he visto que {nombre} no tenía página web ni alguna manera de ver vuestros servicios. Además ofrecemos:\n* Estudiamos tu negocio con procesos que podamos mejorar ⌚\n* Páginas web atractivas para atraer clientes 💻\n* Aplicaciones de escritorio para automatizar procesos repetitivos 🗓️\n¿Agendamos una llamada?\nGracias de antemano.",
+    "Buenas, soy Mario de ayanip.es. He visto que no teníais página web ni alguna manera de ver los servicios de {nombre}. Además ofrecemos:\n* Estudiamos tu negocio con procesos que podamos mejorar ⌚\n* Páginas web atractivas para atraer clientes 💻\n* Aplicaciones de escritorio para automatizar procesos repetitivos 🗓️\n¿Agendamos una llamada?\nGracias de antemano.",
+    "Hola, ¿hablo con {nombre}? Soy Mario de ayanip.es y es que he visto que no aparecéis con página web ni con alguna manera de ver vuestros servicios. Además ofrecemos:\n* Estudiamos tu negocio con procesos que podamos mejorar ⌚\n* Páginas web atractivas para atraer clientes 💻\n* Aplicaciones de escritorio para automatizar procesos repetitivos 🗓️\n¿Agendamos una llamada?\nGracias de antemano.",
+    "Buenos días, soy Mario de ayanip.es. He estado revisando las asesorías de {zona} y he visto que {nombre} no tiene página web ni alguna manera de ver sus servicios. Además ofrecemos:\n* Estudiamos tu negocio con procesos que podamos mejorar ⌚\n* Páginas web atractivas para atraer clientes 💻\n* Aplicaciones de escritorio para automatizar procesos repetitivos 🗓️\n¿Agendamos una llamada?\nGracias de antemano."
+  ],
+  "_mensaje_variables": [
+    "{nombre} - Nombre del negocio (del CSV)",
+    "{direccion} - Dirección del negocio",
+    "{telefono} - Teléfono del negocio",
+    "{rating} - Rating del negocio (⭐4.5)",
+    "{zona} - Ciudad/barrio extraído automáticamente de la dirección"
+  ],
+  "prefijo_pais": "34",
+  "solo_moviles": true,
+  "_solo_moviles_explicacion": "IMPORTANTE: de los 88 leads sin web, solo 34 son móviles. Los 54 fijos (959...) no tienen WhatsApp y hay que trabajarlos por teléfono o email.",
+  "delay_min": 60,
+  "delay_max": 120,
+  "pausa_cada": 5,
+  "pausa_minutos": 10,
+  "max_mensajes_por_ejecucion": 10,
+  "max_mensajes_por_dia": 15,
+  "_max_explicacion": "Lotes pequeños: solo hay 34 destinatarios posibles, conviene medir respuesta antes de quemarlos",
+  "filtrar_tipos": [],
+  "excluir_tipos": [],
+  "_filtros_explicacion": "Vacíos a propósito: limpiar_leads.py ya descartó entidades públicas y registros sin teléfono",
+  "archivo_csv": "negocios_sin_web_asesorias_huelva_provincia_20260802_201012.csv",
+  "log_envios": "envios_whatsapp_asesorias_huelva.log",
+  "whatsapp_api": {
+    "access_token": "",
+    "phone_number_id": "",
+    "api_version": "v21.0"
+  }
+}

@@ -40,10 +40,12 @@ class BusinessFinder:
                 "places.userRatingCount,places.types,nextPageToken"
             )
         }
-        self.businesses_without_website = []
+        self.results = []
         self.total_found = 0
         self.without_website_count = 0
         self._seen_names = set()  # para deduplicar
+        # "sin_web" (por defecto), "con_web" o "todos"
+        self.filtro_web = self.config.get('filtro_web', 'sin_web')
 
     def _load_config(self, config_file: str) -> Dict:
         """Carga configuración desde archivo JSON."""
@@ -64,6 +66,12 @@ class BusinessFinder:
             if field not in config:
                 print(f"❌ ERROR: Campo '{field}' faltante en configuración")
                 exit(1)
+
+        # Validar filtro de web
+        filtro = config.get('filtro_web', 'sin_web')
+        if filtro not in ('sin_web', 'con_web', 'todos'):
+            print(f"❌ ERROR: 'filtro_web' debe ser 'sin_web', 'con_web' o 'todos' (recibido: '{filtro}')")
+            exit(1)
 
         # Validar API key
         if config['api_key'] == "TU_API_KEY_AQUI":
@@ -140,7 +148,7 @@ class BusinessFinder:
             max_pages = 20  # Límite de páginas para evitar loops infinitos
 
             while (next_page_token and
-                   len(self.businesses_without_website) < self.config.get('max_results', 100) and
+                   len(self.results) < self.config.get('max_results', 100) and
                    page_count < max_pages):
 
                 print(f"📄 Obteniendo más resultados... (página {page_count + 2})")
@@ -180,8 +188,16 @@ class BusinessFinder:
             print(f"❌ Error en búsqueda: {e}")
             return []
 
+    def _debe_guardar(self, website: str) -> bool:
+        """Decide si el negocio entra en el CSV según 'filtro_web'."""
+        if self.filtro_web == 'todos':
+            return True
+        if self.filtro_web == 'con_web':
+            return bool(website)
+        return not website
+
     def _process_places(self, places: List[Dict]):
-        """Procesa los lugares y filtra los que no tienen web."""
+        """Procesa los lugares y aplica el filtro de web configurado."""
         for place in places:
             try:
                 self.total_found += 1
@@ -203,18 +219,22 @@ class BusinessFinder:
                     "fecha_buscado": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 }
 
-                # Solo guardar los que NO tienen web (evitar duplicados)
                 if not website:
-                    name_key = name.lower().strip()
-                    if name_key in self._seen_names:
-                        print(f"🔁 Duplicado: {name[:40]}...")
-                        continue
-                    self._seen_names.add(name_key)
-                    self.businesses_without_website.append(business_info)
                     self.without_website_count += 1
-                    print(f"📌 Sin web: {business_info['nombre'][:40]}... (⭐{business_info['rating']})")
-                else:
-                    print(f"✅ Con web: {business_info['nombre'][:40]}... (⭐{business_info['rating']})")
+
+                # Guardar según 'filtro_web' (evitar duplicados)
+                etiqueta = "Con web" if website else "Sin web"
+                if not self._debe_guardar(website):
+                    print(f"⏭️ Descartado ({etiqueta.lower()}): {name[:40]}...")
+                    continue
+
+                name_key = name.lower().strip()
+                if name_key in self._seen_names:
+                    print(f"🔁 Duplicado: {name[:40]}...")
+                    continue
+                self._seen_names.add(name_key)
+                self.results.append(business_info)
+                print(f"📌 {etiqueta}: {business_info['nombre'][:40]}... (⭐{business_info['rating']})")
 
                 # Pequeña pausa para no exceder cuota
                 time.sleep(0.1)
@@ -225,11 +245,12 @@ class BusinessFinder:
 
     def export_to_csv(self):
         """Exporta los resultados a CSV."""
-        if not self.businesses_without_website:
-            print("\n⚠️ No hay negocios sin web para exportar")
+        if not self.results:
+            print(f"\n⚠️ No hay negocios que cumplan el filtro '{self.filtro_web}' para exportar")
             print("💡 Intenta:")
             print("   - Aumentar el radio de búsqueda (radius)")
             print("   - Cambiar el tipo de negocio (search_type)")
+            print("   - Cambiar 'filtro_web' ('sin_web', 'con_web' o 'todos')")
             print("   - Verificar que la API key está correcta y que 'Places API (New)' está habilitada")
             return
 
@@ -255,17 +276,18 @@ class BusinessFinder:
             with open(output_filename, mode='w', newline='', encoding='utf-8') as csvfile:
                 writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
                 writer.writeheader()
-                writer.writerows(self.businesses_without_website)
+                writer.writerows(self.results)
 
-            print(f"\n✅ Exportados {len(self.businesses_without_website)} negocios a {output_filename}")
+            print(f"\n✅ Exportados {len(self.results)} negocios a {output_filename}")
             print(f"📊 Estadísticas:")
             print(f"   - Total buscados: {self.total_found}")
             print(f"   - Sin web: {self.without_website_count} ({self._percentage(self.without_website_count, self.total_found)}%)")
             print(f"   - Con web: {self.total_found - self.without_website_count} ({self._percentage(self.total_found - self.without_website_count, self.total_found)}%)")
-            print(f"\n🎯 LISTO! Tienes {len(self.businesses_without_website)} clientes potenciales")
+            print(f"   - Filtro aplicado: {self.filtro_web}")
+            print(f"\n🎯 LISTO! Tienes {len(self.results)} clientes potenciales")
             print(f"\n📋 Siguientes pasos:")
             print(f"1. Abre el CSV: {output_filename}")
-            print(f"2. Revisa los negocios sin web")
+            print(f"2. Revisa los negocios exportados")
             print(f"3. Haz outreach con las plantillas en plan-outreach.md")
 
         except Exception as e:
@@ -326,12 +348,12 @@ def main():
         print()
 
     for loc_coord, loc_name in locations:
-        if len(finder.businesses_without_website) >= finder.config.get('max_results', 100):
+        if len(finder.results) >= finder.config.get('max_results', 100):
             break
         finder.config['location'] = loc_coord
         finder.config['location_name'] = loc_name
         for stype in search_types:
-            if len(finder.businesses_without_website) >= finder.config.get('max_results', 100):
+            if len(finder.results) >= finder.config.get('max_results', 100):
                 break
             if multi:
                 print(f"{'─' * 60}")

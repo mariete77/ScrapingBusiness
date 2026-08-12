@@ -1,0 +1,14 @@
+{
+  "_comentario": "Asesorías, gestorías y auditoras. filtro_web='todos' porque aquí SÍ nos interesan las que tienen web (la oferta ya no es 'te hago una web').",
+  "api_key": "AIzaSyDDoNBjsWEG2BIl892Bp6BuY70tJpL5gqA",
+  "location": "37.2614,-6.9447",
+  "location_name": "Huelva (capital)",
+  "locations_extra": "37.2581,-7.2083;37.2667,-6.9833;37.0965,-6.5956;37.1667,-6.2167;37.4415,-7.5889;37.3908,-6.1494;37.2833,-6.9500;37.7000,-7.0167",
+  "locations_extra_names": "Lepe;Almonte;Ayamonte;Isla Cristina;Moguer;La Palma del Condado;Gibraleón;Cartaya",
+  "radius": 40000,
+  "search_type": "asesoria fiscal, gestoria, asesoria laboral, asesoria de empresas, auditoria de cuentas, contabilidad",
+  "filtro_web": "todos",
+  "output_prefix": "asesorias_huelva_provincia",
+  "max_results": 300,
+  "language": "es"
+}
