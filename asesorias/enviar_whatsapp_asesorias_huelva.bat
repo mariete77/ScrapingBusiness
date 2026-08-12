@@ -25,7 +25,8 @@ echo.
 echo Iniciando envio de mensajes...
 echo.
 
-C:\Users\mario\AppData\Local\Python\bin\python.exe ..\scripts\whatsapp_sender.py whatsapp_config_asesorias_huelva.json
+cd /d "%~dp0"
+py -3 ..\scripts\whatsapp_sender.py whatsapp_config_asesorias_huelva.json
 
 echo.
 echo ========================================

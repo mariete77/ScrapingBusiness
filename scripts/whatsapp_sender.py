@@ -90,8 +90,9 @@ class WhatsAppSender:
 
         return config
 
-    def _find_latest_csv(self) -> Optional[str]:
-        pattern = os.path.join(".", "negocios_sin_web_*.csv")
+    def _find_latest_csv(self, patron: Optional[str] = None) -> Optional[str]:
+        """Devuelve el CSV mas reciente que casa con el patron (por defecto, cualquiera sin web)."""
+        pattern = patron or os.path.join(".", "negocios_sin_web_*.csv")
         csv_files = glob.glob(pattern)
         if not csv_files:
             return None
@@ -470,6 +471,15 @@ class WhatsAppSender:
                 print("❌ ERROR: No se encontró ningún CSV de negocios sin web.")
                 exit(1)
             print(f"📂 Usando CSV más reciente: {csv_path}")
+        elif '*' in csv_path or '?' in csv_path:
+            # Patron con comodines: util cuando varias zonas comparten carpeta
+            patron = csv_path
+            csv_path = self._find_latest_csv(patron)
+            if not csv_path:
+                print(f"❌ ERROR: Ningún CSV coincide con el patrón '{patron}'.")
+                print("💡 ¿Has ejecutado ya el scraping y limpiar_leads.py en esta carpeta?")
+                exit(1)
+            print(f"📂 Usando CSV más reciente de '{patron}': {csv_path}")
         elif not os.path.exists(csv_path):
             print(f"❌ ERROR: El archivo CSV '{csv_path}' no existe.")
             exit(1)
